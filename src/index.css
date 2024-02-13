@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Serif';
+  src: url('./assets/fonts/seriff.woff2');
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: url('./assets/images/background.jpg') #05010d;
+  background-position: 50% -44px;
+  background-repeat: no-repeat;
+  background-size: clamp(640px, 158.6vw + 45.31px, 1536px);
+  font-family: 'Serif';
+  color: #fff;
+}
+h1 {
+  font-size: 3rem;
+}
+
